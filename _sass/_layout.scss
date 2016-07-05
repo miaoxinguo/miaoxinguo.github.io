@@ -2,12 +2,11 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    position: fixed;
+    background: black;
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+    width:100%; 
+    height:56px;
 }
 
 .site-title {
@@ -20,21 +19,22 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $grey-color-light;
     }
 }
 
 .site-nav {
-    float: right;
-    line-height: 56px;
+    float: left;
+    line-height: 66px;
+    margin-left: 40px;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
+        color: $nav-text-color;
+        // line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -65,7 +65,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $grey-color-light;
                 }
             }
         }
@@ -168,7 +168,8 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    // padding: $spacing-unit 0;
+    padding: 80px 0;
 }
 
 .page-heading {
@@ -217,26 +218,26 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: 28px;
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: 24px;
         }
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 22px;
 
         @include media-query($on-laptop) {
-            font-size: 22px;
+            font-size: 18px;
         }
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 16px;
 
         @include media-query($on-laptop) {
-            font-size: 18px;
+            font-size: 12px;
         }
     }
 }
