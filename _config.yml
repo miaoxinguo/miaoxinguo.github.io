@@ -2,7 +2,7 @@
 title: 苗新国的博客
 url: "http://miaoxinguo.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: ""     # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
-#timezone: Asia/Chongqing
+timezone: Asia/Shanghai
 description: >
   正在搭建中的博客...
 
@@ -24,14 +24,13 @@ gems:
  - jekyll-paginate
  - jekyll-gist
  - jemoji
- - kramdown
 
 # Build settings
-paginate: 5
+paginate: 10
 paginate_path: "page:num"
 
 markdown: kramdown
-# highlighter: rouge
+highlighter: rouge
 
 kramdown:
   input: GFM
