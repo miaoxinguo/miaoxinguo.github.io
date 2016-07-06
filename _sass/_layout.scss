@@ -114,11 +114,49 @@
 }
 
 /**
+ * Tags and Categories Style
+ */
+.tags-box{
+  li {
+    list-style: none;
+    font-weight: bold;
+    margin-top:10px;
+  }
+  .size{
+    font-size: 0.7em; font-weight: bold; vertical-align: super;
+  }
+}
+
+
+/*time style of tages and categories*/
+
+time{
+  margin-left: 15px;
+  font-style: italic;
+}
+
+
+
+/**
+ * Aboutme photo Style
+ */
+
+.about{
+  img {
+    height: 128px;
+    width: 128px;
+    border-radius:50%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+/**
  * Site footer
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    padding: $spacing-unit / 2 0;
 }
 
 .footer-heading {
