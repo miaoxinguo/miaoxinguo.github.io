@@ -19,8 +19,6 @@ github_username: miaoxinguo
 #permalink: /archivers/:title
 gems:
  - jekyll-paginate
- - jekyll-gist
- - jemoji
 
 # Build settings
 paginate: 10
