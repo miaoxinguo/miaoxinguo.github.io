@@ -11,11 +11,6 @@ aboutme_photo: "http://o9z5x996o.bkt.clouddn.com/blog.me.jpeg"
 aboutme: 沉淀、总结、思考、实践
 github_username: miaoxinguo
 
-# Comment Service (Disqus or 多说)
-#  choose one and un-comment the line to active it
-#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
-#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
-
 #permalink: /archivers/:title
 gems:
  - jekyll-paginate
