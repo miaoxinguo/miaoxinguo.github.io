@@ -23,6 +23,12 @@ layout: default
     <time itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">
     {{ site.locales[site.default_locale].PostDate }}{{ page.date | date: "%b %-d, %Y" }}
     </time>
+
+    {{ site.locales[site.default_locale].visitors }}
+    <span id="{{ page.id }}" class="leancloud_visitors add_count_flag"  data-flag-title="{{ page.title }}">
+        {{__('post.visitors')}}
+    </span>
+
     </p>
     
   </header>

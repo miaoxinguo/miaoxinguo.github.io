@@ -39,8 +39,9 @@ locales:
       Previous: "前一页"
       Next: "后一页"
       PostedInCategories: "目录:"   
-      Taggedwith: "| 标签:"
-      PostDate: "| 发表时间: "
+      Taggedwith: "| 标签 :"
+      PostDate: "| 发表时间 : "
+      visitors: "| 阅读次数 "
       Home: "首页"
       About: "关于"
       Guestbook: "留言"
@@ -50,3 +51,6 @@ Blogroll:
       - name: Coderec's Blog
         href: http://coderec.cn/
         title: Coderec's Blog
+leancloud_visitors: 
+    app_id: VF3Wu0VKzfQinWVhgu1X6zHC-gzGzoHsz
+    app_key: RrMib75W8DYAm0IBfCTuKBKB
