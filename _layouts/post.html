@@ -12,8 +12,8 @@ layout: default
 
     {% for cat in page.categories %}
         <a href="{{site.baseurl}}/categories/#{{ cat }}">{{ cat }}</a>{% unless page.categories.last == cat %}, {% endunless %}
-    {% endfor %} 
-        
+    {% endfor %}
+
     {% if page.tags != empty %}
         {{ site.locales[site.default_locale].Taggedwith }}
         {% for tag in page.tags %}
@@ -26,11 +26,11 @@ layout: default
 
     {{ site.locales[site.default_locale].visitors }}
     <span id="{{ page.id }}" class="leancloud_visitors add_count_flag"  data-flag-title="{{ page.title }}">
-        {{__('post.visitors')}}
+        {{ post.visitors }}
     </span>
 
     </p>
-    
+
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -50,7 +50,7 @@ var duoshuoQuery = {short_name:"miaoxg-github-blog"};
         ds.type = 'text/javascript';ds.async = true;
         ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
         ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0] 
+        (document.getElementsByTagName('head')[0]
          || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
     </script>
