@@ -212,13 +212,13 @@
 
 /*two columns*/
 .content {
-    // 从 wrapper 类中抄来的 
+    // MiaoXG: copy from wrapper
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
 
-    padding-top: 100px; // 自己加的
+    padding-top: 100px; // MiaoXG: add
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
